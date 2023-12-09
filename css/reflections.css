@@ -1,0 +1,33 @@
+body{
+    
+    background-image: url(images/Background-opera-speeddials-community-web-simple-backgrounds.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+#header{
+    width: 100%;
+    font-weight: bold;
+    /* padding: 40px; */
+}   
+
+#name{
+    float:left;
+    margin:20px;
+
+}
+.links{
+    float: right;
+    /* margin:10px; */
+    padding:10px;
+    font: 20px;
+    /* border: solid 2px black; */
+    /* border-radius: 7px; */
+}
+hr{
+    width:100%;
+}
+#reflections{
+    width:50%;
+    padding-left: 100px;
+}
