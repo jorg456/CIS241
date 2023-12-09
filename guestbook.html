@@ -1,9 +1,42 @@
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-	<title>GuestBook Page - Jin Xuan</title>
 </head>
 <body>
-	<h1>Xuan GuestBook page, under contruction</h1>
+	<div id="header">
+		<p id="name">Jin Xuan</p>
+		<p class="links">Resume</p>
+		<p class="links">Guestbook</p>
+		<p class="links" >Interests</p>
+		<p class="links">Reflections</p>
+	  </div>
+	  <hr>
+	  <h2 style="margin-left:100px;">Welcome to my website, how did you find this?</h2>
+	<div id="guestbook">
+		
+		<form  >
+			<label for="fname">Name:</label><br>
+			<input type="text" id="fname" name="fname" class="ibox">
+			<br><label for="find">How did you find this?:</label>
+			<br><select id="find" name="findlist" value="Select One" class="ibox">
+			<option value="surf">Just surfed in!</option>
+			<option value="word">Word of mouth</option>
+			<option value="search">By search engine</option>
+			<option value="friend">A friend sent me</option>
+		  </select>
+		  <br>
+		  <label>Your Website</label><br>
+		  <input type="text" id="web" name="web" value="http://" class="ibox">
+		  <br>
+		  <label>Comments</label>
+		  <br>
+		  <textarea rows="4" cols="50"  name="comment">Enter comment here...</textarea><br>
+		<input type="submit" class="buttom">
+		<input type="reset" class="buttom">
+		  </form>
+		  
+		  
+		  
+		  
+		
+	</div>
+
 </body>
 </html>
